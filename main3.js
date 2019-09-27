@@ -2,6 +2,10 @@
 
 // http://jamie-wong.com/2016/08/05/webgl-fluid-simulation/
 // https://www.esimov.com/2014/01/navier-stokes-fluid-simulation-on-html5-canvas
+// http://users.encs.concordia.ca/~grogono/Graphics/fluid-5.pdf
+// https://softologyblog.wordpress.com/category/fluid/
+// https://github.com/amandaghassaei/VortexShedding
+// https://github.com/OpenFOAM/OpenFOAM-7
 
 const mod = (n, d) => ((n % d) + d) % d;
 const lerp = (a, b, s) => (a * (1 - s)) + (b * s);
